@@ -26,14 +26,6 @@
     height: 5vh;
     border-radius: 1.5vh;
 
-}
 
-#miImagen{
-    filter: grayscale(0%);
-    transition: filter 0.5s ease;
-}
-
-#miImagen grayscale {
-    filter: grayscale(100%);
 
 }
