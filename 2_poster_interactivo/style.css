@@ -23,11 +23,13 @@
     position: absolute;
     top: 34%;
     left: 30%;
+    cursor: pointer;
 }
 .moneda2{
     position: absolute;
     top: 34%;
     left: 21%;
+    cursor: pointer;
 }
 .bloque2{
     position: absolute;
@@ -38,9 +40,11 @@
     position: absolute;
     top: 21%;
     left: 56.5%;
+    cursor: pointer;
 }
 .moneda3{
     position: absolute;
     top: 52%;
     left: 87%;
+    cursor: pointer;
 }
