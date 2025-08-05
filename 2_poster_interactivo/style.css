@@ -18,6 +18,8 @@
     position: absolute;
     top: 47%;
     left: 17%;
+    animation: bloquemover 6s ease infinite ;
+
 }
 .moneda1{
     position: absolute;
@@ -35,6 +37,7 @@
     position: absolute;
     top: 33%;
     left: 51%;
+    animation: bloquemover 7s ease-in infinite;
 }
 .corazon{
     position: absolute;
@@ -49,6 +52,14 @@
     cursor: pointer;
 }
 
+
+@keyframes bloquemover{
+    25%{transform: translateX(-60px);}
+    50%{transform: translateX(0px);}
+    75%{transform: translateX(60px);}
+}
+
+
 .saltar{
     animation: salto 0.6s ease forwards;
 }
@@ -59,6 +70,7 @@
     100%{transform: translateY(0px); opacity: 0;}
 
 }
+
 
  .hud {
       position: absolute;
