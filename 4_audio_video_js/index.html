@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="video-container">
+            <video id="video" width="400" controls>
+                <source src="./assets/158229-816359520_small.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+            <div class="buttons">
+                <button id="play-video">Play</button>
+                <button id="stop-video">Stop</button>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image" id="image1">
+                <img class="img-min" src="./assets/tigre.jpg" alt="Imagen 1">
+                <button id="play-stop-img1">Play / Stop</button>
+            </div>
+            <div class="image" id="image2">
+                <img class="img-min" src="./assets/gato.jpg" alt="Imagen 1">
+                <button id="play-stop-img2">Play / Stop</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
