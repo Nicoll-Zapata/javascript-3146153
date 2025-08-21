@@ -4,8 +4,12 @@ const contadorgrillos = document.querySelector("#contador-grillos")
 const contadormanzanas = document.querySelector("#contador-manzanas")
 const play = document.querySelector ("#play")
 const stop = document.querySelector ("#stop")
-const audioGrillos = document.querySelector ("#audio-grillos")
 const audiofondo = document.querySelector ("#audio-fondo")
+const audioGrillos = document.querySelector   ("#audio-grillos")
+const playGrillos = document.querySelector ("#play-grillo")
+const audioSol = document.querySelector ("#audio-sol")
+const audioManzana = document.querySelector ("#audio-manzana")
+const playManzanas = document.querySelector ("#play-manzana")
 let totalgrillos = 0
 let totalmanzanas = 0
 
@@ -52,3 +56,27 @@ function pausarFondo () {
 }
 
 stop.addEventListener ("click", pausarFondo)
+
+function sonidoGrillos () {
+    audioGrillos.play()
+    
+}
+
+playGrillos.addEventListener ("click", sonidoGrillos)
+
+function reproducirSol () {
+    audioSol.play()
+}
+sol.addEventListener ("click", reproducirSol)
+
+/* function pausarSol () {
+    audioSol.pause()
+}
+
+sol.addEventListener ("click", pausarSol) */   
+
+function sonidoManzana () {
+    audioManzana.play ()
+}
+
+playManzanas.addEventListener ("click", sonidoManzana )
