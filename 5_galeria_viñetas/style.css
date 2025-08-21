@@ -208,3 +208,22 @@ button {
 button:hover {
     background-color: rgba(238, 145, 24, 0.767);;
 }
+
+.d-none{
+    display: none;
+
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 ;
+    gap: 20px;
+}
+.filter-2{
+    filter: grayscale();
+}
+
+.filter-3{
+    filter: sepia();
+}
