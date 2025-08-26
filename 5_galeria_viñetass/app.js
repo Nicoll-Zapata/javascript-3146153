@@ -65,4 +65,16 @@ btnAnterior.addEventListener("click", function(){
     mostrarEscena(indice)
 })
 
+miniaturas.forEach( (miniatura, i) => {
+    miniatura.addEventListener("click", function(){
+        mostrarEscena(i)
+    })
+});
+
+
+const audio1 = document.querySelector("#audio-1")
+const play = document.querySelector("play1")
+const stop = document.querySelector("stop1")
+
+
 
