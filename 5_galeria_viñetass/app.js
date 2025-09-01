@@ -55,6 +55,9 @@ btnSiguiente.addEventListener("click", function(){
         indice = 0
     }
     mostrarEscena(indice)
+    audio1.pause()
+    audio2.pause()
+    audio3.pause()
 })
 
 btnAnterior.addEventListener("click", function(){
@@ -63,6 +66,9 @@ btnAnterior.addEventListener("click", function(){
         indice = escenas.length - 1
     }
     mostrarEscena(indice)
+    audio1.pause()
+    audio2.pause()
+    audio3.pause()
 })
 
 miniaturas.forEach( (miniatura, i) => {
@@ -73,8 +79,55 @@ miniaturas.forEach( (miniatura, i) => {
 
 
 const audio1 = document.querySelector("#audio-1")
-const play = document.querySelector("play1")
-const stop = document.querySelector("stop1")
+const audio2 = document.querySelector("#audio-2")
+const audio3 = document.querySelector("#audio-3")
+const play1 = document.querySelector("#play1")
+const play2 = document.querySelector("#play2")
+const play3 = document.querySelector("#play3")
+const stop1 = document.querySelector("#stop1")
+const stop2 = document.querySelector("#stop2")
+const stop3 = document.querySelector("#stop3")
+
+function reproducirAudio1 () {
+    audio1.play()
+}
+
+play1.addEventListener ("click", reproducirAudio1)
+
+
+function pausarAudio1 () {
+    audio1.pause()
+}
+
+stop1.addEventListener ("click", pausarAudio1)
+
+
+function reproducirAudio2 () {
+    audio2.play()
+}
+
+play2.addEventListener ("click", reproducirAudio2)
+
+
+function pausarAudio2 () {
+    audio2.pause()
+}
+
+stop2.addEventListener ("click", pausarAudio2)
+
+function reproducirAudio3 () {
+    audio3.play()
+}
+
+play3.addEventListener ("click", reproducirAudio3)
+
+
+function pausarAudio3 () {
+    audio3.pause()
+}
+
+stop3.addEventListener ("click", pausarAudio3)
+
 
 
 
