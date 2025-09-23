@@ -67,7 +67,6 @@ header {
 
 }
 
-
 .textos p{
     margin-top: 3rem;
 }
@@ -81,8 +80,7 @@ header {
     height: 53rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background: 
-    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
     url("./assets/fondoooo.jpg");
     background-size: cover;
 
@@ -140,10 +138,6 @@ footer {
   color: rgb(121, 118, 118);
   width: 100%;
   font-size: .6rem;
-}
-
-footer img{
-  gap: vh;
 }
 
 
