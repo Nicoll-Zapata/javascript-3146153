@@ -20,10 +20,10 @@ comic.capitulos.forEach(cap => {
     <a href="./index.html?id=${cap.id}" style="color: white;
                display: flex;
                flex-direction: column;
-               gap: 2vh;">
+               gap: 4vh;">
         <img src="${cap.imgPortada}" class="imagenR">
         <h3>${cap.nombreCap}</h3>
-    <p>${cap.descripcion}</p></a> `
+        </a> `
     
     contCP.appendChild(div)
 });
