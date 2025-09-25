@@ -17,7 +17,7 @@ comic.capitulos.forEach(cap => {
     const div = document.createElement("div")
     div.classList.add('episodio')
     div.innerHTML = `
-    <a href="./index.html?id=${cap.id}" style="color: white;
+    <a href="./indexx.html?id=${cap.id}" style="color: white;
                display: flex;
                flex-direction: column;
                gap: 4vh;">

@@ -117,7 +117,7 @@ button{
     color: white;
     text-align: center;
     font-family: sans-serif;
-    box-shadow: -.5vh -.5vh 1vh rgb(100, 100, 100);
+    box-shadow: -.5vh -.5vh 1vh rgb(194, 194, 194);
     position: relative;
     top: -2vh;
     right: -12vh;
@@ -146,7 +146,7 @@ button{
     color: white;
     text-align: center;
     font-family: sans-serif;
-    box-shadow: -.5vh -.5vh 1vh rgb(100, 100, 100);
+    box-shadow: -.5vh -.5vh 1vh rgb(194, 194, 194);
     position: relative;
     top: -2vh;
     right: -6vh;
@@ -176,11 +176,16 @@ button{
     color: white;
     text-align: center;
     font-family: sans-serif;
-    box-shadow: -.5vh -.5vh 1vh rgb(100, 100, 100);
+    box-shadow: -.5vh -.5vh 1vh rgb(194, 194, 194);
     position: relative;
     top: -2vh;
 }
 @media (max-width:600px) {
+
+    body{
+        background-color: black;
+        height: 140vh;
+    }
     .contenedorCaps{
         display: flex;
         flex-direction: column;
@@ -188,18 +193,34 @@ button{
     .cap-1{
         width: 70%;
         height: 270vh;
-        top: 10vh;
+        top: -10vh;
         left: -2vh;
     }
     .BTN{
-        transform: translateY(-5vh);
+        transform: translateY(-6vh);
     }
     .barra{
-         transform: translateY(-3vh);
+         transform: translateY(-6vh);
     }
-    .barra div{
-         transform: translateY(-3vh);
+    .opHcaps{
+        width: 70%;
+        left: -2vh;
+        display: flex;
+        flex-direction: column;
     }
+    .cap-3{
+        top: 1vh;
+    }
+    .cap-4{
+        top: 4vh;
+    }
+    .cap-5{
+        top: 7vh;
+    }
+    .cap-6{
+        top: 10vh;
+    }
+   
 
 
 }
