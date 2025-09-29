@@ -1,10 +1,7 @@
 body{
     background-color: black;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 .contenedorCaps{
     width: 95%;
@@ -82,18 +79,15 @@ body{
 }
 .BTN{
     margin-top: 9vh;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1vh;
     background: black;
-}
-button{
-    width: 10vh;
-    height: 2.6vh;
+    text-decoration: none;
     color: white;
 }
-
 
 
 .barra{
@@ -183,20 +177,20 @@ button{
     top: -2vh;
 }
 @media (max-width:600px) {
-
     body{
-        background-color: black;
-        height: 140vh;
+        height: 120rem;
     }
+
     .contenedorCaps{
         display: flex;
         flex-direction: column;
     }
     .cap-1{
+        position: absolute;
         width: 70%;
-        height: 270vh;
-        top: -10vh;
-        left: -2vh;
+        height: 60vh;
+        top: 10vh;
+        
     }
     .BTN{
         transform: translateY(-6vh);
@@ -206,21 +200,34 @@ button{
     }
     .opHcaps{
         width: 70%;
-        left: -2vh;
+        height: 15vh;
         display: flex;
         flex-direction: column;
     }
+    .cap-2{
+        position: absolute;
+        top: 85vh;
+        left: 8vh;
+    }
     .cap-3{
-        top: 1vh;
+        position: absolute;
+        top: 110vh;
+        left: 8vh;
     }
     .cap-4{
-        top: 4vh;
+        position: absolute;
+        top: 134vh;
+        left: 8vh;
     }
     .cap-5{
-        top: 7vh;
+        position: absolute;
+        top: 158vh;
+        left: 8vh;
     }
     .cap-6{
-        top: 10vh;
+        position: absolute;
+        top: 183vh;
+        left: 8vh;
     }
    
 

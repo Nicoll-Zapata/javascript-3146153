@@ -15,10 +15,10 @@ comic.capitulos.forEach(cap => {
         <h2>Capítulo ${cap.id}</h2>
         <h1>${cap.nombreCap}</h1>
         <p>${cap.descripcion}</p>
-        <button class="BTN">
+        <a href="./video.html?id=${cap.id}" class="BTN">
           <img class="play" src="./assets/play.png" alt="">
           Play
-        </button>
+        </a>
         <div class="barra"><div></div></div>
       </div>
     `;
