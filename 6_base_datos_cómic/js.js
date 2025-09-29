@@ -37,3 +37,18 @@ footer.innerHTML = `<h2>FAQ | PRIVACY POLICY | TERMS OF SERVICE | CONTACT US</h2
 
 const redes = document.querySelector("#redes")
 redes.innerHTML 
+
+const contenedor = document.querySelector(".contenedorCaps")
+
+comic.capitulos.forEach(cap => {
+    let capDiv = document.createElement("a")
+    capDiv.href = `index.html?id=${cap.id}`
+    capDiv.classList.add("cap", "capsH", "opHcaps")
+    capDiv.style.backgroundImage = `url(${cap.imgCapitulo})`
+    capDiv.style.backgroundSize = "cover"
+
+    capDiv.innerHTML =`
+    <h2>${cap.Cap}</h2> `;
+    
+    contenedor.appendChild(capDiv)
+});
