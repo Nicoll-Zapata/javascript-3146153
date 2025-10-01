@@ -1,4 +1,4 @@
-// sacar id de la url
+// Sacar id de la url
 const params = new URLSearchParams(window.location.search)
 const id = parseInt(params.get("id"))
 
@@ -37,3 +37,4 @@ comic.capitulos.forEach(cap => {
   // agregar al contenedor
   contenedor.appendChild(capDiv);
 });
+
